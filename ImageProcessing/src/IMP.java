@@ -106,7 +106,7 @@ class IMP implements MouseListener{
           public void actionPerformed(ActionEvent evt){fun2();}
            });
      
-     JMenuItem thirdItem = new JMenuItem("Show Histogram");
+     JMenuItem thirdItem = new JMenuItem("Show Color Histogram");
      thirdItem.addActionListener(new ActionListener(){
             @Override
           public void actionPerformed(ActionEvent evt){fun3();}
